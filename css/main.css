@@ -33,7 +33,7 @@ body {
 
 
 nav {
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,6 +72,8 @@ nav {
   margin-top: -20px;
 }
 
+/**************************** WHAT'S ON SPOTIFY ****************************/
+
 #onSpotify {
   display: flex;
   flex-direction: column;
@@ -94,22 +96,62 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 70%;
+  padding: 0 30px;
 }
 
 #spotifyFacts div {
-  width: 30%;
   text-align: center;
   flex-basis: 30%;
   margin-top: 50px;
   margin-bottom: 50px;
+  /* flex-wrap: wrap; */
+  padding: 0 15px;
 }
 
 #spotifyFacts div h3 {
   color: #00B172;
 }
 
-#spotifyFacts div p {
-  width: 200px;
-  margin: 0 auto;
+/********************** AS YEEZY AS KANYE WEST **********************/
+
+#greenBox {
+  background-color: #00B172; 
+  background-image: url('/images/spotify-icon-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110px;
+  /* margin: 15px; */
+  display: flex;
+  padding: 45px 20px;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
 }
+
+#greenBox h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  border-bottom: 3px solid white;
+  display: inline;
+}
+
+#greenBox img {
+  width: 250px;
+}
+
+#greenBox p {
+  font-weight: 300;
+}
+
+#left {
+  width: 45%
+}
+
+.greenBlurbs {
+  width: 70%;
+}
+
+/* img#whiteLogo {
+  width: 80px;
+  
+} */
